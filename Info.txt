@@ -1,0 +1,5 @@
+1- Open the project.
+2- Choose the GreenGroceryy.java class and right click on the mouse and choose the run file part.
+3- Choose who you are like customer, owner or carrier.
+4- The code will run and you need to enter your username and password as admin and admin123 or adı and adı123.
+5- Then you will successfully login.

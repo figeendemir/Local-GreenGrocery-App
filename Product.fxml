@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" fx:id="product_form" prefHeight="176.0" prefWidth="231.0" stylesheets="@ProductDesign.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="greengrocery.ProductController">
+   <children>
+      <VBox layoutX="-0.8" prefHeight="176.0" prefWidth="237.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="-5.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="26.0" prefWidth="237.0">
+               <children>
+                  <Label fx:id="pro_name" prefHeight="18.0" prefWidth="122.0" text="Apple" />
+                  <Label fx:id="pro_price" prefHeight="18.0" prefWidth="133.0" text="0.0" />
+               </children>
+            </HBox>
+            <AnchorPane prefHeight="104.0" prefWidth="237.0">
+               <children>
+                  <ImageView fx:id="pro_image" fitHeight="106.0" fitWidth="231.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+            <HBox prefHeight="47.0" prefWidth="237.0">
+               <children>
+                  <Button fx:id="pro_addBtn" mnemonicParsing="false" prefHeight="26.0" prefWidth="83.0" text="Add" />
+                  <Spinner fx:id="pro_amountSpin" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
